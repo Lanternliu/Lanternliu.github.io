@@ -10,6 +10,7 @@ tags:
   - PLF (编程语言基础)
   - Coq
   - 笔记
+  - 生活
 ---
 
 > make the STLC into a PL!
