@@ -1,6 +1,12 @@
+<!--//添加评论系统-->
+<link rel="stylesheet" href="../../../../css/gitalk.css">
+<script src="../../../../js/gitalk.min.js"></script>
+
 ---
 layout: default
 ---
+
+
 
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
@@ -60,7 +66,28 @@ layout: default
                 <!-- 网易云跟帖 评论框 start -->
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
+                
                 {% endif %}
+                <!--   gitalk       -->
+
+                <div class="comment">
+                <div id="gitalk-container"></div>
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                <script>
+                var gitalk = new Gitalk({
+                    id: '2018-09-26 00:32:24 +0000',
+                    clientID: '3e12c08c2ec52afbcb30',
+                    clientSecret: 'c2a74d279e7b42cf782a1d2d1b5a410d27c5ab57',
+                    repo: 'yizibi.github.io',
+                    owner: 'yizibi',
+                    admin: ['yizibi'],
+                    labels: ['Gitalk'],
+                })
+                gitalk.render('gitalk-container')
+                </script>
+
+                </div>
             </div>  
 
     <!-- Side Catalog Container -->
