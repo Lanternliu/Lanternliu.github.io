@@ -20,7 +20,7 @@ twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
-icon:img/home-liuwenzi.jpg
+
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -78,7 +78,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>出来混总是要还的"
+sidebar-about-description: "<br>出来混总是要还的"
 sidebar-avatar: /img/home-liuwenzi.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
