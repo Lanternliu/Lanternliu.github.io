@@ -66,11 +66,11 @@ netease_comment: false
 
 gitalk:
 enable: true
-owner: 'Lanternliu'
-repo: 'lanternliu.github.io'
-clientID: 'a7447a56049340b88782'
-clientSecret: '153ed0b96ea85a9732045cbf50acbcc06928c868'
-admin: 'Lanternliu'
+owner: Lanternliu
+repo: lanternliu.github.io
+clientID: a7447a56049340b88782
+clientSecret: 153ed0b96ea85a9732045cbf50acbcc06928c868
+admin: Lanternliu
 
 
 # Analytics settings
