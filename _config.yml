@@ -68,8 +68,8 @@ gitalk:
 enable: true
 owner: Lanternliu
 repo: lanternliu.github.io
-clientID: a7447a56049340b88782
-clientSecret: 153ed0b96ea85a9732045cbf50acbcc06928c868
+clientID: 62881c234514b63ed923
+clientSecret: 9fc3dcf02e3849899097b37fd3174186777d7145
 admin: Lanternliu
 
 
