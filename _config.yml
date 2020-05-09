@@ -79,7 +79,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "<br>出来混总是要还的"
-sidebar-avatar: img/home-me.jpg   # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/home-me.jpg   # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
