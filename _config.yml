@@ -109,10 +109,12 @@ page-mathjax: false
 
 # Friends
 friends: [
-#    {
-#    #     title: "Su",
-#    #     href: "http://su.gallery/"
-#    # },{
+    {
+         title: "labuladong",
+         href: "https://github.com/labuladong/fucking-algorithm"
+     }
+#     ,
+#     {
 #        title: "乱序",
 #        href: "http://mida.re/"
 #    },{
