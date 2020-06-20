@@ -23,14 +23,14 @@ layout: default
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-
+    
                 <!-- Multi-Lingual -->
                 {% if page.multilingual %}
                     {% include multilingual-sel.html %}
                 {% endif %}
-
-				{{ content }}
-
+    
+    			{{ content }}
+    
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     {% if page.previous.url %}
@@ -51,7 +51,7 @@ layout: default
                     {% endif %}
                 </ul>
                 <hr style="visibility: hidden;">
-
+    
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
                 <div class="comment">
@@ -59,7 +59,7 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
-
+    
                 {% if site.netease_comment %}
                 <!-- 网易云跟帖 评论框 start -->
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
@@ -68,14 +68,14 @@ layout: default
                 {% endif %}
                 
                 <!--   gitalk       -->
-
+    
                 <div class="comment">
                 <div id="gitalk-container"></div>
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
                 <script>
                 var gitalk = new Gitalk({
-                    id: window.location.pathname,
+                    id: decodeURI(location.pathname),
                     clientID: '62881c234514b63ed923',
                     clientSecret: '9fc3dcf02e3849899097b37fd3174186777d7145',
                     repo: 'lanternliu.github.io',
@@ -85,10 +85,10 @@ layout: default
                 })
                 gitalk.render('gitalk-container')
                 </script>
-
+    
                 </div>
             </div>  
-
+    
     <!-- Side Catalog Container -->
         {% if page.catalog %}
             <div class="
@@ -105,16 +105,16 @@ layout: default
                 </div>
             </div>
         {% endif %}
-
+    
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 sidebar-container">
-
+    
                 <!-- Featured Tags -->
                 {% include featured-tags.html bottom=true %}
-
+    
                 <!-- Friends Blog -->
                 {% include friends.html %}
             </div>
