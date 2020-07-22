@@ -110,7 +110,7 @@ Tips：ThreadLocal建议使用static修饰
 
 [ThreadLocal内存泄漏问题](https://juejin.im/post/5ba9a6665188255c791b0520)
 
-[30 | 线程本地存储模式：没有共享，就没有伤害](https://time.geekbang.org/column/article/93745)
+[线程本地存储模式：没有共享，就没有伤害](https://time.geekbang.org/column/article/93745)
 
 [Java进阶（七）正确理解Thread Local的原理与适用场景](http://www.jasongj.com/java/threadlocal/)
 
