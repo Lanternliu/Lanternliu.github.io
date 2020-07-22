@@ -1,5 +1,5 @@
  ---
- layout:     post
+ layout:    post
  title:      "ThreadLocal使用与原理"
  subtitle:   "Java基础"
  date:       2020-07-22

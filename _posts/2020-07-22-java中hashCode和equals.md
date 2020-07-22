@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:      post
 title:      "java中hashCode()和equals()使用"
 subtitle:   "Java基础"
 date:       2020-07-22
